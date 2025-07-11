@@ -1,0 +1,7 @@
+# Base GUI and utility libraries
+tk
+pyperclip
+markdown
+
+# Optional system & file operations (cross-platform safe)
+psutil
