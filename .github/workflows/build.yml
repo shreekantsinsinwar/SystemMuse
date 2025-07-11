@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Windows Executable
         run: |
-          pyinstaller --onefile --windowed main.py
+          pyinstaller --onefile --windowed sytemmuse.py
 
       - name: Upload .exe artifact
         uses: actions/upload-artifact@v4
@@ -54,7 +54,7 @@ jobs:
 
       - name: Build AppImage
         run: |
-          pyinstaller --onefile --windowed main.py
+          pyinstaller --onefile --windowed sytemmuse.py
 
       - name: Upload .AppImage artifact
         uses: actions/upload-artifact@v4
@@ -81,7 +81,7 @@ jobs:
 
       - name: Build macOS .app and .dmg
         run: |
-          pyinstaller --onefile --windowed main.py
+          pyinstaller --onefile --windowed sytemmuse.py
 
       - name: Upload .dmg/.app artifact
         uses: actions/upload-artifact@v4
